@@ -1,7 +1,11 @@
 {
-  "name": "mcp-universalis",
+  "name": "@chalkpe/mcp-universalis",
   "version": "1.0.0",
   "description": "MCP server for Universalis",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chalkpe/mcp-universalis.git"
+  },
   "license": "MIT",
   "author": "Chalk",
   "type": "module",
