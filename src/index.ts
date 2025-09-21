@@ -3,7 +3,7 @@
 import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js'
 import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js'
 import { z } from 'zod'
-import pkg from '../package.json'
+import pkg from '../package.json' with { type: 'json' }
 import { getMarketBoard } from './tools/get-market-board.js'
 
 const server = new McpServer({
